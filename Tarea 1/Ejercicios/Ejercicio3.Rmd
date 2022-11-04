@@ -4,3 +4,9 @@ title: "Tarea 1"
 output: pdf_document
 ---
 ## Ejercicio 3
+```{r, include=F}
+data <- read.csv("Datos/Preg3A.csv")
+data$logPop <- log(data$Pop)
+```
+
+Analicemos los datos.
