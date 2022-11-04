@@ -1,0 +1,6 @@
+
+---
+title: "Tarea 1"
+output: pdf_document
+---
+## Ejercicio 3
