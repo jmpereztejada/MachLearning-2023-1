@@ -10,3 +10,12 @@ data$logPop <- log(data$Pop)
 ```
 
 Analicemos los datos.
+
+```{r, echo=F}
+library(ggplot2)
+ggplot(data=data,
+       aes(x=Deposit, y=Killed/Number, colour=Insecticide)) +
+  geom_point() +
+  theme_classic()
+```
+
